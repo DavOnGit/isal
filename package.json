@@ -1,0 +1,27 @@
+{
+  "name": "isal",
+  "version": "0.9.1",
+  "description": "Image Search Abstraction Layer",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nf run nodemon"
+  },
+  "keywords": [
+    "API",
+    "image",
+    "search",
+    "bing"
+  ],
+  "author": "Davide Vozzi",
+  "license": "MIT",
+  "dependencies": {
+    "bing.search": "1.0.1",
+    "express": "4.14.0",
+    "mongodb": "2.2.10"
+  },
+  "devDependencies": {
+    "foreman": "2.0.0",
+    "nodemon": "1.10.2"
+  }
+}
