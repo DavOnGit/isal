@@ -14,7 +14,7 @@ It also remembers the last 10 query history.
 
 Point your browser to the following addresses to seach "fuffy cat" images at page 3 (0 index based):
 
-[https://imgsrc-al.herokuapp.com/api/imagesearch/fuffy%20catoffset=3](https://imgsrc-al.herokuapp.com/api/imagesearch/fuffy cat?offset=3)
+[https://imgsrc-al.herokuapp.com/api/imagesearch/fuffy cat?offset=3](https://imgsrc-al.herokuapp.com/api/imagesearch/fuffy%20cat?offset=3)
 
 Point your browser to the following addresses to get last 10 query history:
 
