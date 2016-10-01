@@ -12,23 +12,27 @@
     </div>
     <br>
     <div class="container">
-        <p>This App performs image search with Bing image search engine</p>
+        <p>This App performs image search with Bing image search engine API</p>
         
-        <ol>
-            <li>I can pass a string as a parameter and I will receive the JSON response.</li>
-            <li>I can view last 10 query history</li>
-        </ol>
+        <ul>
+            <li>I can pass a string as a query parameter and I will receive the JSON response. Every search page contain 10 images metadata.
+            </li>
+            <li>I can add the parameter <code>?offset=Page_number</code> to paginate results.</li>
+            <li>I can view last 10 query history.</li>
+        </ul>
         <br>
         <h4>Example input:</h4>
         
-        <p>Point your browser to one of the following addresses:</p>
-        
+        <p>Point your browser to the following addresses to seach "fuffy cat" images at page 3 (0 index based):</p>
         <ul>
           <li>
-            <p>https://imgsrc-al.herokuapp.com/api/imagesearch/fuffy cat</p>
+            <p><a href='/api/imagesearch/fuffy cat?offset=3'>https://imgsrc-al.herokuapp.com/api/imagesearch/fuffy cat?offset=3</a></p>
           </li>
+        </ul>
+        <p>Point your browser to the following addresses to get last 10 query history:</p>
+        <ul>
           <li>
-            <p>https://imgsrc-al.herokuapp.com/api/latest/imagesearch</p>
+            <p><a href='/api/latest/imagesearch'>https://imgsrc-al.herokuapp.com/api/latest/imagesearch</a></p>
           </li>
         </ul>
         <br>
