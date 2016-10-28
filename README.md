@@ -28,7 +28,7 @@ Make sure you have [Node.js](http://nodejs.org/) installed.
 
 ```sh
 $ git clone https://github.com/DavOnGit/isal.git # or clone your own fork
-$ cd timestamp-microservice
+$ cd isal
 $ npm install
 $ npm start
 ```
